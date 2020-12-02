@@ -1,0 +1,160 @@
+main {
+  margin-top: 100px;
+  margin-left: 2em;
+}
+
+.centered {
+  text-align: center;
+
+}
+
+h1 {
+  margin-top: 0px;
+}
+
+body {
+  margin: 0;
+  font-family: Geneva,Tahoma,Verdana,sans-serif;
+}
+
+
+.bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: #4B0082;
+  width: 100%;
+  height: 160px;
+}
+
+
+
+#logo {
+  height: 125px;
+  width: 125px;
+  position: absolute;
+  bottom: 15px;
+  right: 100px;
+}
+
+#contact-text {
+  color: white;
+}
+
+
+nav.top-nav {
+background-color: #a0f;
+position: absolute;
+top: 50px;
+left: 0px;
+right: 0px;
+box-shadow: 0px 4px 4px #0003;
+}
+
+nav.top-nav ul {
+  list-style: none;
+  padding: 0;
+  color: white;
+}
+
+nav.top-nav li {
+  font-weight: bold;
+  color: white;
+  margin: 5px;
+  display: inline-block;
+  padding: 5px;
+  user-select: none;
+  position: relative;
+}
+
+nav.top-nav .pulldown-menu {
+  display: none;
+  position: absolute;
+  background-color: white;
+  border: 1px solid #333;
+  border-radius: 4px;
+  top: 25px;
+  left: 4px;
+  width: 100%;
+}
+
+nav.top-nav .pulldown-menu li a {
+  color: #333;
+  display: block;
+  padding: 5px;
+  font-weight: 200;
+}
+
+.nav-bar:hover {
+  background-color: #8B008B;
+}
+
+
+
+nav.top-nav a {
+  text-decoration: none;
+  color: white;
+}
+
+nav.top-nav li:hover .pulldown-menu {
+  display: block;
+  background-color: white;
+}
+
+.projectbox {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 140px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+#project-link:hover {
+  text-decoration: underline;
+  background-color: white;
+}
+
+.project-img {
+  width: 275px;
+  height: 250px;
+}
+
+
+figcaption {
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+#site-header {
+  margin-top: 120px;
+  margin-bottom: -100px;
+  text-decoration: underline;
+}
+
+#model {
+  width: 400px;
+  height: 200px;
+  margin-top: 100px;
+}
+
+#prof-pic {
+  width: 250px;
+  height: 275px;
+}
+
+#page-container {
+  position: relative;
+  min-height: 100vh;
+
+}
+
+#content-wrap {
+  padding-bottom: 165px;    /* Footer height */
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 165px;            /* Footer height */
+}
